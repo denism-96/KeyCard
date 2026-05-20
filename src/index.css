@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+:root {
+  --text-gray: #aab3c5;
+  --text-white: #fff;
+  --text-green: #2ad669;
+  --text-light-blue: #08d7fc;
+  --text-sky-blue: #00d8ff;
+  --text-orange: #fa7b04;
+  --bg-article: #131e3a;
+}
+
+.btn {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn_primary {
+  background: linear-gradient(135deg, #fa7b04, #ff5500);
+}
+
+.btn_primary:hover {
+  box-shadow: 0 8px 30px rgba(255, 122, 0, 0.4);
+}
+
+.btn_secondary {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn_secondary:hover {
+  border-color: var(--text-sky-blue);
+  color: var(--text-sky-blue);
+  box-shadow: 0 8px 30px rgba(0, 216, 255, 0.15);
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #fa7b04, #ff4d00);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.gradient-blue {
+  background: linear-gradient(135deg, #08d7fc, #0088ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
