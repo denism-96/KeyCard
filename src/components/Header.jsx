@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="m-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <img src="#" alt="main logo" />
+        <img src="/images/logo.svg" alt="main logo" />
         <nav className="header-nav flex items-center gap-8 text-sm font-medium text-(--text-gray)">
           <NavLink to="/" className="header-link">
             О нас
