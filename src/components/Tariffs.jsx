@@ -2,11 +2,14 @@ import Button from "./Ui/Button";
 
 export default function Tariffs() {
   return (
-    <section>
+    <section className="bg-[#0b1224] py-20">
       <div className="m-auto max-w-7xl text-center">
-        <p>Тарифы</p>
-        <h2 className="text-5xl font-black">
-          Выберите формат работы{" "}
+        <span className="mb-5 inline-block rounded-full border border-[#f5790518] bg-[#ff7a0018] px-3 text-(--text-orange)">
+          Тарифы
+        </span>
+        <h2 className="mb-10 text-5xl font-black">
+          Выберите формат работы
+          <br />
           <span className="gradient-orange">под ваши задачи</span>
         </h2>
         <div className="grid grid-cols-3 gap-6">
