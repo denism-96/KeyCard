@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutSection";
+import Audit from "../components/Audit";
 import HeroSection from "../components/HeroSection";
 import ServicesSection from "../components/ServicesSection";
 import Tariffs from "../components/Tariffs";
@@ -10,6 +11,7 @@ export default function HomePage() {
       <AboutSection />
       <ServicesSection />
       <Tariffs />
+      <Audit />
     </>
   );
 }
